@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div id="input-box">
+                <div id="search-input">
+                    <input type="text" placeholder="Search..." id="input">
+                    <button id="search-button"><img src="https://img.icons8.com/ios7/600/search.png" id="search-icon"></button>
+                </div>
+            </div>
+            <div id="middle">
+                <div id="left">
+                    <p id="city-name">Jaipur</p>
+                    <p id="current-date">21-Feb-2025</p>
+                    <img src="./images/weather-icon.png" alt="" id="weather-icon">
+                </div>
+                <div id="right">
+                    <p id="current-temp">21<sup style="font-size: 40px; position: relative; bottom: 20  px;">o</sup>C</p>
+                    <p id="min-max-temp">20<sup style="font-size: 10px; position: relative; bottom: 10px;">o</sup>C/30<sup style="font-size: 10px; position: relative; bottom: 10px;">o</sup>C</p>
+                </div>
+            </div>
+            <div id="lower">
+                <div id="inner"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
