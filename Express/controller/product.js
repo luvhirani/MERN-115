@@ -38,7 +38,7 @@ const getAllProducts = async (req,res) =>{ //localhost:3012/product/getAllProduc
     }
 }
 
-const updateProduct = async (req,res) =>{
+const updateProduct = async (req,res) =>{ //localhost:3012/product/updateProduct/9
     let pId = req.params.id;
     let {name, price, category} = req.body;
     // console.log(pId,name,price)
@@ -56,7 +56,7 @@ const deleteProduct = async (req,res) =>{
     let pid = req.params.id;
     try {
         const response = await pool.query("DELETE FROM products WHERE pId=?",[pid])
-        res.send({message:"Product deleted", response});
+        res.send(response);
     } catch (error) {
         console.log(error)
     }

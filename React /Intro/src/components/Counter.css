@@ -1,0 +1,14 @@
+.counter{
+    border: 2px solid black;
+    display: grid;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.counter p {
+    font-size: 40px;
+}
+

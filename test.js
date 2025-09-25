@@ -1,14 +1,25 @@
-const {sum} = require("./math")
-const {sub} = require("./math")
+// const {sum} = require("./math")
+// const {sub} = require("./math")
 
-console.log(sum(3,10))
+// console.log(sum(3,10))
 
-console.log(sub(10,2))
+// console.log(sub(10,2))
 
-const obj = {
-    key: "value"
-}
+// const obj = {
+//     key: "value"
+// }
 
-let {key} = obj;
+// let {key} = obj;
 
-console.log(key)
+// console.log(key)
+
+// if(isLoggedIn){
+//     <Logout>
+//     }
+//     else(
+//     <Login/>
+// )
+
+let isLoggedIn = false;
+
+isLoggedIn ? console.log("You are Logged In") : console.log("Kindly Login")
