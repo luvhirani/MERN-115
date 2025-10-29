@@ -10,7 +10,7 @@ const Fetch = () => {
     
     const getData = () =>{
         // const response = fetch("https://jsonplaceholder.typicode.com/users")
-        const response = axios.get("https://jsonplaceholder.typicode.com/users")
+        const response = axios.get("https://jsonplaceholder.typicode.com/users",)
         setUsers(response)
         // console.log(response)
     }
